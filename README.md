@@ -2,6 +2,14 @@
 
 ## Getting Started
 
+Running with Docker
+
+```bash
+docker build -t next-bootstrap .
+
+docker run -it -p 3000:3000 next-bootstrap
+```
+
 First, run the development server:
 
 ```bash
